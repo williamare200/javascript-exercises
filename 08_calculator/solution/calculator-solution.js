@@ -19,11 +19,11 @@ const power = function (a, b) {
 };
 
 const factorial = function (n) {
-  let product = 1;
-  for (let i = n; i > 0; i--) {
-    product *= i;
+  let product = 1;// Initialize a variable to store the result
+  for (let i = n; i > 0; i--) {// Start at n, count down to 1
+    product *= i;// Multiply product by i
   }
-  return product;
+  return product; // Return the final result
 };
 
 module.exports = {
